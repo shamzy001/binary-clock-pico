@@ -1,4 +1,4 @@
-# Binary Clock — Raspberry Pi Pico W
+# Binary Clock ï¿½ Raspberry Pi Pico W
 
 A binary clock running on a Raspberry Pi Pico W using MicroPython.
 
@@ -18,3 +18,6 @@ A binary clock running on a Raspberry Pi Pico W using MicroPython.
 1. Edit `main.py` and fill in your Wi-Fi credentials
 2. Flash MicroPython to your Pico W
 3. Copy `main.py` to the Pico
+
+## Credits
+Original concept and inspiration from the [Nerdy Clock â€” Binary Clock Using Pico W](https://www.instructables.com/Nerdy-Clock-Binary-Clock-Using-Pico-W/) project on Instructables. This implementation extends the original with NTP time sync, automatic US Daylight Saving Time adjustment, and periodic re-sync.
